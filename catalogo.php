@@ -53,7 +53,7 @@ include './modelo/consulSQL.php';
                 <script>
                   $( "#campo" ).selectmenu();
                 </script>
-        				<input type="button" id="buttonBuscaEq"  value="Buscar Equipo" onclick="pintaProductos(); return false;"/>
+        				<input type="button" id="buttonBuscaEq"  value="Buscar Equipo" onclick="pintaProductos(); return false;" class="pag"/>
         						</form>
 
                     <script>
@@ -81,7 +81,7 @@ include './modelo/consulSQL.php';
                 <script>
                   $( "#dici" ).selectmenu();
                 </script>
-        				<input type="button" id="buttonBuscaDisc"  value="Buscar Disciplina" onclick="pintaProductos2(); return false;"/>
+        				<input type="button" id="buttonBuscaDisc"  value="Buscar Disciplina" onclick="pintaProductos2(); return false;" class="pag"/>
                 <script>$( "#buttonBuscaDisc" ).button();</script>
         			</form>
             </div>
