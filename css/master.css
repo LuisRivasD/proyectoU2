@@ -1,0 +1,174 @@
+.cabe{
+color: rgb(46, 46, 46);
+}
+
+
+/* .bg01a{
+  background-color: rgb(193, 251, 114);
+  background-image:url(../img/bg01.png);
+  background-size: cover;
+   width: 90em;
+   height: 60em;
+} */
+
+.logo01{
+
+  margin-top: 2em;
+  width: 10em;
+  height: 12em;
+}
+
+.caja01{
+  padding-top: 1.5em;
+  display: flex;
+  justify-content: center;
+  height: 16em;
+  /* border-style: solid; */
+  -webkit-box-shadow: -1px 10px 28px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 10px 28px -12px rgba(0,0,0,0.75);
+box-shadow: -1px 10px 28px -12px rgba(0,0,0,0.75);
+z-index: 1;
+}
+
+
+.caja02{
+  display: flex;
+  justify-content: center;
+  margin-top: 4em;
+  margin-bottom: -50px;
+text-align: center;
+
+  /* height: 3em; */
+}
+
+#cj{
+  margin-bottom: 8em;
+}
+
+
+
+.busca{
+  margin-top: 5em;
+}
+
+.bg-gr-az{
+   background-image: linear-gradient(to right , #56CCF2, #2F80ED);
+}
+
+.bg-gr-roz{
+   background-image: linear-gradient(to right , #ec008c, #fc6767);
+}
+
+.bg-gr-hot{
+   background-image: linear-gradient(to bottom , #FDC830, #F37335);
+}
+
+.bordercir{
+  border-radius: 0 0 .5em .5em;
+}
+
+.card{
+  border-radius: 0 0 .5em .5em;
+}
+
+.foot{
+
+
+  position: fixed;
+  /* color: rgb(55, 55, 55); */
+    z-index: 0;
+    display: flex;
+      justify-content: center;
+  background-color: #fafafa;
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: rgb(66, 66, 66);
+    -webkit-box-shadow: -1px -10px 28px -12px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px -10px 28px -12px rgba(0,0,0,0.75);
+  box-shadow: -1px -10px 28px -12px rgba(0,0,0,0.75);
+}
+
+/* footer {
+  display: flex;
+    justify-content: center;
+background-color: #fafafa;
+  /* position: absolute; */
+  /* bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: rgb(66, 66, 66);
+  -webkit-box-shadow: -1px -10px 28px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px -10px 28px -12px rgba(0,0,0,0.75);
+box-shadow: -1px -10px 28px -12px rgba(0,0,0,0.75);
+} */
+
+.card-body{
+  color: rgb(255, 255, 255);
+}
+
+.bgc{
+  background-color: rgb(105, 105, 105);
+}
+
+.c01{
+margin-top: 1em;
+}
+
+
+#contenido{
+margin-top: 3.8em;
+margin-bottom:  3.8em;
+width: 1159px;
+float: right;
+
+}
+
+header {
+  position: fixed;
+background-color: white;
+z-index: 2;
+width: 100%;
+}
+
+
+
+/* Aside init */
+aside{
+  margin-top: 3.8em;
+  position: fixed;
+  float: left;
+  width: 200px;
+  height: 100%;
+  border-color: rgba(0, 0, 0, 0.4);
+   border-width: 3px;
+    border-right-style: solid;
+
+
+
+}
+
+.TA{
+  margin-top: 6em;
+  margin-left: -15em;
+  text-align: center;
+
+}
+
+.card-text{
+  margin-bottom: 0.2em;;
+}
+
+.card-title{
+  margin-bottom: 0.1em;;
+}
+
+.sing-in{
+  padding-top: 3.8em;
+  padding-left: 20em;
+  padding-bottom: 3.8em;
+}
+
+
+/* Aside End */
